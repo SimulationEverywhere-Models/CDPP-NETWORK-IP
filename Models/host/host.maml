@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> DataLink@dataLink Application@Application Transport
+      Internet  </components>
+    <out> hOut Display senseCarrier ApplicationTransport </out>
+    <in>  FTP_In HTTP_In SMTP_In SNMP_In Telnet_In physicalInput
+      statusCarrier Source Destination </in>
+    <Link> FTP_In FTP_In@Application </Link>
+    <Link> HTTP_In HTTP_In@Application </Link>
+    <Link> SMTP_In SMTP_In@Application </Link>
+    <Link> SNMP_In SNMP_In@Application </Link>
+    <Link> Telnet_In  Telnet_In@Application </Link>
+    <Link> sendFrame@DataLink hOut </Link>
+    <Link> RootOut@Application Display </Link>
+    <Link> physicalInput getFrame@DataLink </Link>
+    <Link> statusCarrier status@DataLink </Link>
+    <Link> senseCarrier@DataLink senseCarrier </Link>
+    <Link> Source SourceIP@Internet  </Link>
+    <Link> Destination DestinationIP@Internet </Link>
+    <Link> ApplicationOut@Application infromApplication@Transport    </Link>
+    <Link> outtoNetwork@Transport infromTransport@Internet    </Link>
+    <Link> outtoDataLink@Internet getPacket@DataLink   </Link>
+    <Link> sendPacket@DataLink infromDataLink@Internet   </Link>
+    <Link> outtoTransport@Internet infromNetwork@Transport </Link>
+    <Link> outtoApplication@Transport in@Application</Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>

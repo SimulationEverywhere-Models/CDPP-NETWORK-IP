@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> ripTable2@ripTable2  </components>
+    <out> done respond interfacePort </out>
+    <in> Request Address update </in>
+    <Link> Request request@ripTable2 </Link>
+    <Link> Address Address@ripTable2</Link>
+    <Link> update update@ripTable2</Link>
+    <Link> done@ripTable2 done</Link>
+    <Link> respond@ripTable2 respond</Link>
+    <Link> interfacePort@ripTable2 interfacePort</Link>
+  </top>
+  <ripTable2>
+    <preparation> 00:00:00:005  </preparation>
+  </ripTable2>
+</CDPlusPlus_Builder_Version_1.0.0>

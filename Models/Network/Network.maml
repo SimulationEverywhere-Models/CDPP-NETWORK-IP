@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> receiver1@Receiver </components>
+    <out> outtoTransport outtoDataLink </out>
+    <in> infromTransport infromDataLink SourceIP DestinationIP </in>
+    <Link> SourceIP sip@Receiver1 </Link>
+    <Link> infromDataLink ingress@Receiver1 </Link>
+    <Link> egress@Receiver1 outtoTransport </Link>
+  </top>
+  <receiver1>
+    <preparation> 00:00:05:000</preparation>
+  </receiver1>
+</CDPlusPlus_Builder_Version_1.0.0>
