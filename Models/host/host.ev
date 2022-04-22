@@ -1,0 +1,19 @@
+00:00:01:00 Source 192168111222
+00:00:10:00 FTP_In 11
+00:00:10:00 Destination 192168111223
+00:00:10:01 statusCarrier 1
+00:00:40:02 FTP_In 1001214
+00:00:40:02 Destination 192168001103
+00:00:40:03 statusCarrier 1
+00:00:80:04 FTP_In 1001215
+00:00:80:04 Destination 192168001104
+00:00:80:06 statusCarrier 1
+00:01:90:07 Telnet_In 1001216
+00:01:90:07 Destination 192168001105
+00:01:90:11 statusCarrier 1
+00:02:40:21 physicalInput 101
+00:02:40:21 physicalInput 102
+00:02:40:21 physicalInput 103
+00:02:40:21 physicalInput 104
+00:02:40:21 physicalInput 410
+
